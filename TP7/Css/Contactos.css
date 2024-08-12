@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+body {
+  margin: 0;
+  background-color: #99CCFF;
+  font-family: 'Lato', sans-serif;
+}
+
+.topbar {
+  background-color: #F5F5F5;
+  overflow: hidden;
+}
+
+.topbar a {
+  float: right;
+  color: #99CCFF;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3%;
+  margin-right: 3%;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  color: #6699FF;
+}
+
+.topbar img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: whitesmoke;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+.container {
+  padding: 0 16px;
+  background-color: whitesmoke;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}

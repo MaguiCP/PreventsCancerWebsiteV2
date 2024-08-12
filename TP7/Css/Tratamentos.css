@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container.row {
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header {
+    text-align: center;
+    margin: auto;
+    background-color: #99CCFF;
+}
+
+.container .row .header h1 {
+    padding-top: 30px;
+    font-size: 45px;
+    color: #F5F5F5;
+}
+
+.topbar a:hover {
+    color: #6699FF;
+}
+
+.button {
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.container .row .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.content .card {
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: relative;
+}
+
+.content .card img {
+    width: 100%;
+    height: auto;
+}
+
+.content .card h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.content .card p {
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+a {
+    color: #FF811D;
+    text-decoration: none;
+}
+
+.nome-do-site {
+    font-family: 'Lora';
+    color: #99CCFF;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-left: 2%;
+    align-content: center;
+}
+
+.topbar {
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.topbar a {
+    float: right;
+    color: #99CCFF;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.topbar img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+li {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
