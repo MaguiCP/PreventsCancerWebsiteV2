@@ -17,6 +17,7 @@ Este projeto é um website dedicado à prevenção do cancro de próstata. O web
 ### Melhorias
 
 - **Integração com Base de Dados**: Adicionada uma base de dados para armazenar informações dos pacientes e as suas respostas ao formulário de anamnese. As principais alterações incluem:
+
   - **Criação de Tabelas**: Foram criadas tabelas na base de dados para armazenar informações sobre pacientes, incluindo dados pessoais e respostas ao questionário de saúde.
   - **Atualização do Formulário de Anamnese**: O formulário de anamnese foi atualizado para enviar dados para o banco de dados, incluindo perguntas adicionais que são exibidas condicionalmente com base nas respostas do utilizador.
   - **Validação e Armazenamento**: Implementada a validação dos dados enviados e o armazenamento na base de dados utilizando PHP e MySQL. Agora, o formulário verifica se os campos obrigatórios estão preenchidos e armazena os dados corretamente.
@@ -40,6 +41,7 @@ This project is a website dedicated to prostate cancer prevention. The website p
 ### Improvements
 
 - **Database Integration**: Added a database to store patient information and their responses to the anamnesis form. Key changes include:
+  
   - **Database Tables**: Created tables in the database to store patient information, including personal data and health questionnaire responses.
   - **Anamnesis Form Update**: Updated the anamnesis form to submit data to the database, including additional questions that are conditionally displayed based on user responses.
   - **Validation and Storage**: Implemented validation of submitted data and storage in the database using PHP and MySQL. The form now checks for required fields and stores data correctly.
